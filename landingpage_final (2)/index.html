@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tani Makmur - Pupuk Organik POC</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&amp;display=swap" rel="stylesheet"/>
+
+<link href="assets/style.css" rel="stylesheet"/></head>
+<body>
+<header>
+<div class="brand">TANI MAKMUR</div>
+<button class="btn btn-primary" onclick="order()">Pesan Sekarang</button>
+</header>
+<section class="hero">
+<img src="assets/img1.jpg"/>
+<div class="hero-text">
+<h1>Pupuk Organik POC<br/>Tani Makmur</h1>
+<p>Pupuk organik cair premium yang diformulasikan untuk meningkatkan kesuburan tanah, mempercepat pertumbuhan tanaman, dan menghasilkan panen yang lebih melimpah.</p>
+<button class="btn btn-primary" onclick="order()">Pesan Via WhatsApp</button>
+</div>
+</section>
+<section class="section">
+<h2>Produk Kami</h2>
+<img class="center-img" src="assets/img2.jpg"/>
+</section>
+<section class="section">
+<h2>Manfaat Pupuk Organik POC</h2>
+<div class="card">
+<ul style="font-size:18px;line-height:1.7;">
+<li>Menyuburkan tanah secara alami</li>
+<li>Mempercepat pertumbuhan tunas &amp; daun</li>
+<li>Mengurangi ketergantungan pupuk kimia</li>
+<li>Meningkatkan kualitas &amp; kuantitas hasil panen</li>
+<li>Aman untuk lingkungan dan ramah mikroorganisme tanah</li>
+</ul>
+</div>
+</section>
+<section class="section">
+<h2>Harga Produk</h2>
+<div class="price-box">HARGA PROMO: <br/> <span style="font-size:36px;color:#2f7a32;">Rp 75.000</span></div>
+<button class="btn btn-primary" onclick="order()" style="padding:16px 28px;font-size:20px;">Pesan Sekarang via WA</button>
+</section>
+<section class="section">
+<h2>Deskripsi Produk</h2>
+<div class="card">
+<p>Pupuk Organik Cair (POC) Tani Makmur terbuat dari bahan organik terfermentasi yang kaya nutrisi. POC ini mengandung nitrogen, fosfor, kalium, dan mikroorganisme yang bermanfaat untuk kesehatan tanah.</p>
+<p>Cocok untuk:</p>
+<ul>
+<li>Tanaman hortikultura</li>
+<li>Tanaman buah</li>
+<li>Tanaman pangan</li>
+<li>Tanaman hias</li>
+</ul>
+<p>Diproduksi di: <b>Sendang, Senori, Tuban</b></p>
+</div>
+</section>
+<footer>
+ © 2025 Tani Makmur – Pupuk Organik POC
+</footer>
+<div class="wa-float" onclick="order()">💬</div>
+<script>
+function order() {
+  const msg = encodeURIComponent("Halo, saya ingin memesan Pupuk Organik POC.");
+  window.open("https://wa.me/6285608569353?text=" + msg, "_blank");
+}
+</script>
+</body>
+</html>
